@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Tanker';
+  src: url('https://cdn.prod.website-files.com/6915bbbef5b75d8daa2ff39d/6915c486dfa7291ccd49d04f_Tanker-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Interdisplay';
+  src: url('https://cdn.prod.website-files.com/6915bbbef5b75d8daa2ff39d/6915c833d7582e107aa019fa_InterDisplay-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Interdisplay';
+  src: url('https://cdn.prod.website-files.com/6915bbbef5b75d8daa2ff39d/6915c83355ea10b2ee79202b_InterDisplay-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-coffee: #482820;
+  --color-amber: #FEBD02;
+  --color-cream: #F5F0EB;
+  --color-white: #FFFFFF;
+  --color-ink: #111827;
+
+  --font-display: 'Tanker', Impact, sans-serif;
+  --font-body: 'Interdisplay', system-ui, sans-serif;
+  --font-script: var(--font-smooch), cursive;
+
+  --radius-pill: 9999px;
+  --radius-card: 20px;
+
+  --shadow-card: 0 8px 30px rgba(72, 40, 32, 0.08);
+  --shadow-elevated: 0 16px 60px rgba(72, 40, 32, 0.14);
+}
+
+@layer utilities {
+  .text-fluid-hero {
+    font-size: clamp(3.5rem, 10vw, 9.5rem);
+    line-height: 0.86;
+    letter-spacing: -1.25px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #482820;
+  color: #FFFFFF;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
