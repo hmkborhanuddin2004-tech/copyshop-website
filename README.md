@@ -1,35 +1,47 @@
-# ☕ BrewLab — Artisan Coffee Shop & Cafe Web App
+# BrewLab - Artisan Coffee Shop & Cafe Web Application
 
-An elegant, modern full-stack web application designed for specialty coffee shops and cafes. Built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**, featuring interactive menu catalogs, customizable brews, responsive cart management, and seamless reservation workflows.
-
----
-
-## 🌟 Key Features
-
-- ☕ **Artisan Menu & Catalog:** Rich presentation of specialty espresso, pour-overs, cold brews, and seasonal bakery items.
-- 📱 **Mobile-First Responsive UI:** Designed with high aesthetic standards, micro-interactions, and fluid transitions across mobile, tablet, and desktop.
-- 🛒 **Dynamic Order & Cart System:** Real-time state management for item customization (roast type, milk options, sweetness levels).
-- ⚡ **High Performance & SEO:** Server-Side Rendering (SSR) and optimized image delivery with Next.js App Router.
-- 🎨 **Modern Aesthetics:** Warm, cozy cafe ambiance paired with dark/light theme contrast and accessible typography.
+A full-stack web application designed for specialty coffee shops and cafes. Built with Next.js (App Router), TypeScript, and Tailwind CSS, featuring interactive menu catalogs, customizable brews, responsive cart management, and table reservation workflows.
 
 ---
 
-## 🛠️ Tech Stack
+## Key Features
+
+- **Artisan Menu & Catalog:** Rich presentation of specialty espresso, pour-overs, cold brews, and bakery items.
+- **Mobile-First Responsive UI:** Designed with high aesthetic standards, micro-interactions, and fluid transitions across mobile, tablet, and desktop.
+- **Dynamic Order & Cart System:** Real-time state management for item customization (roast type, milk options, sweetness levels).
+- **High Performance & SEO:** Server-Side Rendering (SSR) and optimized image delivery with Next.js App Router.
+- **Accessible Design:** Clean color contrast and accessible typography throughout.
+
+---
+
+## Technical Stack
 
 - **Framework:** Next.js (App Router)
 - **Language:** TypeScript / JavaScript
 - **Styling:** Tailwind CSS, PostCSS
-- **Icons & UI:** Lucide React, Modern CSS Modules
+- **Icons & UI:** Lucide React
 - **State Management:** React Hooks & Context API
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/hmkborhanuddin2004-tech/copyshop-website.git
 cd copyshop-website/frontend
+```
+
+### 2. Install dependencies
+
+```bash
 npm install
+```
+
+### 3. Run the development server
+
+```bash
 npm run dev
 ```
 
@@ -37,9 +49,6 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ---
 
-## 👨‍💻 Author
+## License
 
-**HMk Borhan Uddin**  
-Full-Stack Developer · AI Automation & Meta Business Growth Specialist  
-- GitHub: [@hmkborhanuddin2004-tech](https://github.com/hmkborhanuddin2004-tech)
-- Portfolio: [hmkborhanuddin2004-tech.github.io](https://hmkborhanuddin2004-tech.github.io)
+This project is licensed under the MIT License.
